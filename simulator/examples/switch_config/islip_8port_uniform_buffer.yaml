@@ -1,0 +1,13 @@
+# iSLIP scheduler configuration - 8-port switch, uniform buffer depth
+# All ports share the same buffer size to serve as a comparison baseline
+
+num_ports: 8
+addr_length: 4
+hash_module_type: FullLookupTable
+buffer_type: NBuffersPerPort
+scheduler_type: iSLIP
+clock_frequency_mhz: 200.0
+axis_data_width: 512
+
+# Use the global buffer size; every port shares this value
+global_voq_size: 128

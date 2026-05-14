@@ -1,0 +1,8 @@
+num_ports: 10
+addr_length: 1
+hash_module_type: FullLookupTable
+buffer_type: NBuffersPerPort
+scheduler_type: iSLIP
+clock_frequency_mhz: 300.0
+axis_data_width: 512
+global_voq_size: 128

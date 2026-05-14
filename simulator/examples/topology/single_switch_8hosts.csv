@@ -1,0 +1,13 @@
+# Single-switch topology - 8 hosts attached to one 8-port switch
+# Format: node_a,port_a,node_b,port_b
+# s0 = 8-port switch, 0-7 = hosts
+
+# Host-to-port mapping
+0,0,s0,0
+1,0,s0,1
+2,0,s0,2
+3,0,s0,3
+4,0,s0,4
+5,0,s0,5
+6,0,s0,6
+7,0,s0,7

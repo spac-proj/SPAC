@@ -1,0 +1,6 @@
+cd /homes/gl325/workspace/netforge/simulator  \
+    && python tools/run_simulation.py \
+    --config examples/switch_config/islip_8port.yaml \
+    --topology examples/topology/single_switch_8hosts.csv \
+    --trace examples/trace/random_traffic.csv \
+    --max-time 10000 --output test_output.json

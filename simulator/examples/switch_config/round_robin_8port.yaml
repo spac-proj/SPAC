@@ -1,0 +1,11 @@
+# RoundRobin scheduler configuration - 8-port switch
+# Targets workloads where fairness matters more than peak throughput
+
+num_ports: 8
+addr_length: 4
+hash_module_type: FullLookupTable
+buffer_type: OneBufferPerPort
+scheduler_type: RoundRobin
+clock_frequency_mhz: 200.0
+axis_data_width: 512
+global_voq_size: 512

@@ -1,0 +1,12 @@
+# Build output
+build/
+
+# Demo / example output dirs (created by running compile_lib)
+out_demo/
+out_rr/
+out_*/
+
+# Per-test build leftovers
+examples/test_roundtrip/spac_server
+examples/test_roundtrip/spac_client
+examples/test_roundtrip/*.o

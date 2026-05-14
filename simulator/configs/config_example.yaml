@@ -1,0 +1,41 @@
+# Network Switch Simulator Configuration Example
+# Based on switch_hls/include/common.hpp parameters
+
+# Basic switch parameters
+num_ports: 4                    # Number of ports (NUM_PORTS)
+addr_length: 4                  # Address length in bits (ADDR_LENGTH)
+hash_bits: 7                    # Hash bits for MultiBankHash (HASH_BITS)
+axis_data_width: 512            # AXI-Stream data width
+
+# Architecture options (matching enum definitions)
+hash_module_type: FullLookupTable   # Options: FullLookupTable, MultiBankHash
+buffer_type: OneBufferPerPort       # Options: OneBufferPerPort, NBuffersPerPort
+scheduler_type: iSLIP               # Options: RoundRobin, iSLIP
+
+# Buffer configuration
+max_queue_depth_log: 3           # MAX_QUEUE_DEPTH_LOG
+max_queue_depth: 8               # 2^max_queue_depth_log
+
+# Simulation parameters
+clock_frequency_mhz: 200.0       # Clock frequency in MHz
+simulation_time_ns: 1000000.0    # Maximum simulation time (1ms)
+
+# Buffer sizes (can be per-port or global)
+global_voq_size: 64              # Global VOQ size if voq_sizes not specified
+# voq_sizes:                      # Per-port VOQ sizes (optional)
+#   0: 64                         # Port 0 VOQ size
+#   1: 64                         # Port 1 VOQ size
+#   2: 32                         # Port 2 VOQ size
+#   3: 32                         # Port 3 VOQ size
+
+# Shared memory size for shared buffer architectures
+shared_memory_size: 1024
+
+# Congestion control parameters
+max_retries: 10                  # Maximum retransmission attempts
+backoff_base_delay_cycles: 10    # Base backoff delay
+backoff_max_delay_cycles: 1000   # Maximum backoff delay
+
+# Statistics collection
+enable_statistics: true
+statistics_interval_cycles: 1000

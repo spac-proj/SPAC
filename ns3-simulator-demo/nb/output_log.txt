@@ -1,0 +1,1091 @@
+[  0%] Building CXX object contrib/nb/CMakeFiles/nb.dir/model/nb-csma-net-device.cc.o
+[  0%] Linking CXX shared library /Users/cyoung/Desktop/imperial/final_project/try/ns-allinone-3.44/ns-3.44/build/lib/libns3.44-nb-default.dylib
+CSMA channel (Backoff Enabled): DataRate 1Mbps, Delay 5ms
+Backoff Params: SlotTime 512us, MinSlots 0, MaxSlots 1024, ceiling 10, MaxRetries 16
+Backoff Params: SlotTime 512us, MinSlots 0, MaxSlots 1024, ceiling 10, MaxRetries 16
+Backoff Params: SlotTime 512us, MinSlots 0, MaxSlots 1024, ceiling 10, MaxRetries 16
+Backoff Params: SlotTime 512us, MinSlots 0, MaxSlots 1024, ceiling 10, MaxRetries 16
+client host1 -> host3 : srcHost 16777217 dstHost 16777219, local appId: 8082
+client host1 -> host4 : srcHost 16777217 dstHost 16777220, local appId: 8083
+client host2 -> host3 : srcHost 16777218 dstHost 16777219, local appId: 8086
+client host2 -> host4 : srcHost 16777218 dstHost 16777220, local appId: 8087
+server host3, appId: 8082
+server host3, appId: 8086
+server host4, appId: 8083
+server host4, appId: 8087
+Hostid: 16777217, Appid: 8082, Client Receive ESTABLISHED, time: 1.000000
+NbStack Send Request Info: From = 16777217, To = 16777219, time = 1.000000
+Hostid: 16777217, Appid: 8083, Client Receive ESTABLISHED, time: 1.000000
+NbStack Send Request Info: From = 16777217, To = 16777220, time = 1.000000
+Hostid: 16777218, Appid: 8086, Client Receive ESTABLISHED, time: 1.000000
+NbStack Send Request Info: From = 16777218, To = 16777219, time = 1.000000
+Hostid: 16777218, Appid: 8087, Client Receive ESTABLISHED, time: 1.000000
+NbStack Send Request Info: From = 16777218, To = 16777220, time = 1.000000
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000512 seconds
+Channel busy, backing off for 0.001024 seconds
+Channel busy, backing off for 0.001536 seconds
+Channel busy, backing off for 0.002560 seconds
+Channel busy, backing off for 0.002560 seconds
+Channel busy, backing off for 0.000512 seconds
+Channel busy, backing off for 0.001024 seconds
+Channel busy, backing off for 0.005632 seconds
+Switch Received! src: 16777217, dst: 16777219, time: 1.007080
+[SW] learn host 16777217 is from port 0
+[SW] flood unknown dst 16777219 from inPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 0
+[iSLIP] out 2 grant: in 0
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 1
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Switch Received! src: 16777218, dst: 16777219, time: 1.007080
+[SW] learn host 16777218 is from port 1
+[SW] flood unknown dst 16777219 from inPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 1
+[iSLIP] out 2 grant: in 0
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 2
+[iSLIP] in 1 accept: out 0
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.012800 seconds
+Recal Switch, PortBecameIdle! time: 1.009256
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 1
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 3
+[iSLIP] in 1 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.009256
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Recal Switch, PortBecameIdle! time: 1.009257
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000004 seconds
+Channel busy, backing off for 0.000009 seconds
+Channel busy, backing off for 0.000016 seconds
+Channel busy, backing off for 0.000029 seconds
+Channel busy, backing off for 0.000114 seconds
+Channel busy, backing off for 0.000115 seconds
+Channel busy, backing off for 0.000161 seconds
+Channel busy, backing off for 0.000154 seconds
+Channel busy, backing off for 0.000271 seconds
+Channel busy, backing off for 0.000232 seconds
+Channel busy, backing off for 0.000990 seconds
+Channel busy, backing off for 0.000823 seconds
+Recal Switch, PortBecameIdle! time: 1.011432
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 3
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000004 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000020 seconds
+Channel busy, backing off for 0.000097 seconds
+Channel busy, backing off for 0.000222 seconds
+Channel busy, backing off for 0.000246 seconds
+Channel busy, backing off for 0.000589 seconds
+Channel busy, backing off for 0.000186 seconds
+Channel busy, backing off for 0.000127 seconds
+Channel busy, backing off for 0.025600 seconds
+Channel busy, backing off for 0.000588 seconds
+Channel busy, backing off for 0.000806 seconds
+Channel busy, backing off for 0.000035 seconds
+Channel busy, backing off for 0.000577 seconds
+Channel busy, backing off for 0.000241 seconds
+Channel busy, backing off for 0.000175 seconds
+Channel busy, backing off for 0.000096 seconds
+Channel busy, backing off for 0.000173 seconds
+Channel busy, backing off for 0.000073 seconds
+Channel busy, backing off for 0.000220 seconds
+Channel busy, backing off for 0.000435 seconds
+Channel busy, backing off for 0.000942 seconds
+Hostid: 16777219, Appid: 8082, Server Receive ACCEPT_READY, time: 1.014160
+NbStack::Accept
+Hostid: 16777219, Appid: 8082, Server Receive READ_READY, time: 1.014160
+NbStack Send Request Info: From = 16777219, To = 16777217, time = 1.014160
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000847 seconds
+Channel busy, backing off for 0.000054 seconds
+Channel busy, backing off for 0.000955 seconds
+Channel busy, backing off for 0.000682 seconds
+Channel busy, backing off for 0.000949 seconds
+Channel busy, backing off for 0.000684 seconds
+Channel busy, backing off for 0.000483 seconds
+Channel busy, backing off for 0.000198 seconds
+Channel busy, backing off for 0.000274 seconds
+Channel busy, backing off for 0.000892 seconds
+Channel busy, backing off for 0.000614 seconds
+Recal Switch, PortBecameIdle! time: 1.018941
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000631 seconds
+Channel busy, backing off for 0.000465 seconds
+Channel busy, backing off for 0.000758 seconds
+Channel busy, backing off for 0.000873 seconds
+Switch Received! src: 16777219, dst: 16777217, time: 1.021240
+[SW] learn host 16777219 is from port 2
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 2
+[iSLIP] in 2 accept: out 0
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.023416
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.024236
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Switch Received! src: 16777218, dst: 16777220, time: 1.027176
+[SW] flood unknown dst 16777220 from inPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 1
+[iSLIP] out 2 grant: in 1
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 0
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000014 seconds
+Channel busy, backing off for 0.000057 seconds
+Channel busy, backing off for 0.000080 seconds
+Channel busy, backing off for 0.000159 seconds
+Channel busy, backing off for 0.000140 seconds
+Channel busy, backing off for 0.000120 seconds
+Channel busy, backing off for 0.000817 seconds
+Hostid: 16777217, Appid: 8082, Client Receive READ_READY, time: 1.028320
+client send count: 1
+NbStack Send Request Info: From = 16777217, To = 16777219, time = 1.028320
+Hostid: 16777219, Appid: 8086, Server Receive ACCEPT_READY, time: 1.029140
+NbStack::Accept
+Hostid: 16777219, Appid: 8086, Server Receive READ_READY, time: 1.029140
+NbStack Send Request Info: From = 16777219, To = 16777218, time = 1.029140
+Channel busy, backing off for 0.000000 seconds
+Recal Switch, PortBecameIdle! time: 1.030746
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 1
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000006 seconds
+Channel busy, backing off for 0.000023 seconds
+Channel busy, backing off for 0.000008 seconds
+Channel busy, backing off for 0.000113 seconds
+Channel busy, backing off for 0.000204 seconds
+Channel busy, backing off for 0.000884 seconds
+Channel busy, backing off for 0.000119 seconds
+Channel busy, backing off for 0.000807 seconds
+Channel busy, backing off for 0.000149 seconds
+Channel busy, backing off for 0.000217 seconds
+Channel busy, backing off for 0.000526 seconds
+Channel busy, backing off for 0.000962 seconds
+Channel busy, backing off for 0.000478 seconds
+Channel busy, backing off for 0.000691 seconds
+Channel busy, backing off for 0.000153 seconds
+Channel busy, backing off for 0.000388 seconds
+Switch Received! src: 16777219, dst: 16777218, time: 1.036220
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 2
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 3
+[iSLIP] in 2 accept: out 1
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.038396
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.038396
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.038658
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000512 seconds
+Channel busy, backing off for 0.003072 seconds
+Hostid: 16777220, Appid: 8087, Server Receive ACCEPT_READY, time: 1.043300
+NbStack::Accept
+Hostid: 16777220, Appid: 8087, Server Receive READ_READY, time: 1.043300
+NbStack Send Request Info: From = 16777220, To = 16777218, time = 1.043300
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777218, Appid: 8086, Client Receive READ_READY, time: 1.043300
+client send count: 1
+NbStack Send Request Info: From = 16777218, To = 16777219, time = 1.043300
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.004608 seconds
+Switch Received! src: 16777217, dst: 16777220, time: 1.045096
+[SW] flood unknown dst 16777220 from inPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 0
+[iSLIP] out 2 grant: in 0
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 1
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000012 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000028 seconds
+Channel busy, backing off for 0.000050 seconds
+Channel busy, backing off for 0.000092 seconds
+Channel busy, backing off for 0.000208 seconds
+Channel busy, backing off for 0.000389 seconds
+Channel busy, backing off for 0.000384 seconds
+Channel busy, backing off for 0.000946 seconds
+Channel busy, backing off for 0.000288 seconds
+Channel busy, backing off for 0.000890 seconds
+Channel busy, backing off for 0.000618 seconds
+Channel busy, backing off for 0.000670 seconds
+Channel busy, backing off for 0.000117 seconds
+Channel busy, backing off for 0.000749 seconds
+Switch Received! src: 16777220, dst: 16777218, time: 1.050380
+[SW] learn host 16777220 is from port 3
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 0
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 2
+[iSLIP] ---- Grant phase ----
+Switch Received! src: 16777218, dst: 16777219, time: 1.050380
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 3
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.052556
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 1
+[iSLIP] in 1 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.052556
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000011 seconds
+Channel busy, backing off for 0.000014 seconds
+Channel busy, backing off for 0.000031 seconds
+Channel busy, backing off for 0.000122 seconds
+Recal Switch, PortBecameIdle! time: 1.052721
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 3
+[iSLIP] in 3 accept: out 1
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000006 seconds
+Channel busy, backing off for 0.000012 seconds
+Channel busy, backing off for 0.000120 seconds
+Channel busy, backing off for 0.000008 seconds
+Channel busy, backing off for 0.000054 seconds
+Channel busy, backing off for 0.000106 seconds
+Channel busy, backing off for 0.000251 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000086 seconds
+Channel busy, backing off for 0.000126 seconds
+Channel busy, backing off for 0.000610 seconds
+Channel busy, backing off for 0.000060 seconds
+Channel busy, backing off for 0.000091 seconds
+Channel busy, backing off for 0.000101 seconds
+Channel busy, backing off for 0.000122 seconds
+Channel busy, backing off for 0.000688 seconds
+Channel busy, backing off for 0.000119 seconds
+Channel busy, backing off for 0.000416 seconds
+Channel busy, backing off for 0.000095 seconds
+Channel busy, backing off for 0.000921 seconds
+Channel busy, backing off for 0.000933 seconds
+Channel busy, backing off for 0.000546 seconds
+Channel busy, backing off for 0.000449 seconds
+Switch Received! src: 16777217, dst: 16777219, time: 1.055464
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000086 seconds
+Channel busy, backing off for 0.000550 seconds
+Channel busy, backing off for 0.000202 seconds
+Channel busy, backing off for 0.000948 seconds
+Channel busy, backing off for 0.000452 seconds
+Channel busy, backing off for 0.000623 seconds
+Channel busy, backing off for 0.000865 seconds
+Channel busy, backing off for 0.000680 seconds
+Hostid: 16777220, Appid: 8083, Server Receive ACCEPT_READY, time: 1.057460
+NbStack::Accept
+Hostid: 16777220, Appid: 8083, Server Receive READ_READY, time: 1.057460
+NbStack Send Request Info: From = 16777220, To = 16777217, time = 1.057460
+Channel busy, backing off for 0.000000 seconds
+Recal Switch, PortBecameIdle! time: 1.059941
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.060203
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 0
+[iSLIP] in 0 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000011 seconds
+Channel busy, backing off for 0.000012 seconds
+Channel busy, backing off for 0.000031 seconds
+Channel busy, backing off for 0.000085 seconds
+Channel busy, backing off for 0.000113 seconds
+Channel busy, backing off for 0.000245 seconds
+Channel busy, backing off for 0.000667 seconds
+Channel busy, backing off for 0.000969 seconds
+Channel busy, backing off for 0.000117 seconds
+Channel busy, backing off for 0.000356 seconds
+Channel busy, backing off for 0.000483 seconds
+Channel busy, backing off for 0.000013 seconds
+Channel busy, backing off for 0.000571 seconds
+Channel busy, backing off for 0.000216 seconds
+Channel busy, backing off for 0.000261 seconds
+Channel busy, backing off for 0.000461 seconds
+Switch Received! src: 16777220, dst: 16777217, time: 1.064540
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 3
+[iSLIP] in 3 accept: out 0
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000657 seconds
+Hostid: 16777218, Appid: 8087, Client Receive READ_READY, time: 1.064845
+client send count: 1
+NbStack Send Request Info: From = 16777218, To = 16777220, time = 1.064845
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777219, Appid: 8086, Server Receive READ_READY, time: 1.065107
+NbStack Send Request Info: From = 16777219, To = 16777218, time = 1.065107
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000488 seconds
+Channel busy, backing off for 0.000919 seconds
+Recal Switch, PortBecameIdle! time: 1.066716
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000710 seconds
+Channel busy, backing off for 0.000731 seconds
+Channel busy, backing off for 0.000280 seconds
+Channel busy, backing off for 0.000847 seconds
+Channel busy, backing off for 0.000615 seconds
+Channel busy, backing off for 0.000813 seconds
+Channel busy, backing off for 0.000180 seconds
+Channel busy, backing off for 0.000051 seconds
+Channel busy, backing off for 0.000878 seconds
+Hostid: 16777217, Appid: 8083, Client Receive READ_READY, time: 1.071620
+client send count: 1
+NbStack Send Request Info: From = 16777217, To = 16777220, time = 1.071620
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777218, dst: 16777220, time: 1.071925
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 3
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000568 seconds
+Switch Received! src: 16777219, dst: 16777218, time: 1.072187
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 2
+[iSLIP] in 2 accept: out 1
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.074101
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.074363
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.074732
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Switch Received! src: 16777217, dst: 16777220, time: 1.078700
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 3
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000004 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000039 seconds
+Channel busy, backing off for 0.000082 seconds
+Channel busy, backing off for 0.000160 seconds
+Channel busy, backing off for 0.000118 seconds
+Hostid: 16777220, Appid: 8087, Server Receive READ_READY, time: 1.079005
+NbStack Send Request Info: From = 16777220, To = 16777218, time = 1.079005
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000020 seconds
+Channel busy, backing off for 0.000188 seconds
+Hostid: 16777218, Appid: 8086, Client Receive READ_READY, time: 1.079267
+client send count: 2
+NbStack Send Request Info: From = 16777218, To = 16777219, time = 1.079267
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000807 seconds
+Hostid: 16777219, Appid: 8082, Server Receive READ_READY, time: 1.079636
+NbStack Send Request Info: From = 16777219, To = 16777217, time = 1.079636
+Channel busy, backing off for 0.000000 seconds
+Channel busy, backing off for 0.000865 seconds
+Channel busy, backing off for 0.000851 seconds
+Channel busy, backing off for 0.000148 seconds
+Channel busy, backing off for 0.000960 seconds
+Channel busy, backing off for 0.000750 seconds
+Channel busy, backing off for 0.000704 seconds
+Channel busy, backing off for 0.000592 seconds
+Channel busy, backing off for 0.000175 seconds
+Channel busy, backing off for 0.000510 seconds
+Channel busy, backing off for 0.000441 seconds
+Switch Received! src: 16777220, dst: 16777218, time: 1.086085
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 3
+[iSLIP] in 3 accept: out 1
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000057 seconds
+Channel busy, backing off for 0.000079 seconds
+Channel busy, backing off for 0.000015 seconds
+Channel busy, backing off for 0.000110 seconds
+Switch Received! src: 16777218, dst: 16777219, time: 1.086347
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 1
+[iSLIP] in 1 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000009 seconds
+Channel busy, backing off for 0.000025 seconds
+Channel busy, backing off for 0.000028 seconds
+Channel busy, backing off for 0.000017 seconds
+Channel busy, backing off for 0.000038 seconds
+Channel busy, backing off for 0.000476 seconds
+Switch Received! src: 16777219, dst: 16777217, time: 1.086716
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 2
+[iSLIP] in 2 accept: out 0
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.088300
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.088535
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.088892
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.089120
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777220, Appid: 8083, Server Receive READ_READY, time: 1.093204
+NbStack Send Request Info: From = 16777220, To = 16777217, time = 1.093204
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777218, Appid: 8087, Client Receive READ_READY, time: 1.093439
+client send count: 2
+NbStack Send Request Info: From = 16777218, To = 16777220, time = 1.093439
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777217, Appid: 8082, Client Receive READ_READY, time: 1.093796
+client send count: 2
+NbStack Send Request Info: From = 16777217, To = 16777219, time = 1.093796
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777219, Appid: 8086, Server Receive READ_READY, time: 1.094024
+NbStack Send Request Info: From = 16777219, To = 16777218, time = 1.094024
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777220, dst: 16777217, time: 1.100284
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 3
+[iSLIP] in 3 accept: out 0
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000010 seconds
+Channel busy, backing off for 0.000019 seconds
+Channel busy, backing off for 0.000040 seconds
+Channel busy, backing off for 0.000124 seconds
+Channel busy, backing off for 0.000205 seconds
+Switch Received! src: 16777218, dst: 16777220, time: 1.100519
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 3
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000296 seconds
+Switch Received! src: 16777217, dst: 16777219, time: 1.100876
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 0
+[iSLIP] in 0 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000011 seconds
+Channel busy, backing off for 0.000012 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000034 seconds
+Channel busy, backing off for 0.000111 seconds
+Channel busy, backing off for 0.000494 seconds
+Switch Received! src: 16777219, dst: 16777218, time: 1.101104
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 2
+[iSLIP] in 2 accept: out 1
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.102695
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.103160
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.103280
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.103724
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777220, Appid: 8087, Server Receive READ_READY, time: 1.107599
+NbStack Send Request Info: From = 16777220, To = 16777218, time = 1.107599
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777217, Appid: 8083, Client Receive READ_READY, time: 1.108064
+client send count: 2
+NbStack Send Request Info: From = 16777217, To = 16777220, time = 1.108064
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777218, Appid: 8086, Client Receive READ_READY, time: 1.108184
+client send count: 3
+NbStack Send Request Info: From = 16777218, To = 16777219, time = 1.108184
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777219, Appid: 8082, Server Receive READ_READY, time: 1.108628
+NbStack Send Request Info: From = 16777219, To = 16777217, time = 1.108628
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777220, dst: 16777218, time: 1.114679
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 3
+[iSLIP] in 3 accept: out 1
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000008 seconds
+Channel busy, backing off for 0.000014 seconds
+Channel busy, backing off for 0.000046 seconds
+Channel busy, backing off for 0.000049 seconds
+Channel busy, backing off for 0.000172 seconds
+Channel busy, backing off for 0.000344 seconds
+Switch Received! src: 16777217, dst: 16777220, time: 1.115144
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 3
+[iSLIP] ---- Grant phase ----
+Switch Received! src: 16777218, dst: 16777219, time: 1.115264
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 1
+[iSLIP] in 1 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000014 seconds
+Channel busy, backing off for 0.000010 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000094 seconds
+Channel busy, backing off for 0.000196 seconds
+Channel busy, backing off for 0.000147 seconds
+Switch Received! src: 16777219, dst: 16777217, time: 1.115708
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 2
+[iSLIP] in 2 accept: out 0
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.117320
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.117491
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.117884
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.117911
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777220, Appid: 8083, Server Receive READ_READY, time: 1.122224
+NbStack Send Request Info: From = 16777220, To = 16777217, time = 1.122224
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777218, Appid: 8087, Client Receive READ_READY, time: 1.122395
+client send count: 3
+NbStack Send Request Info: From = 16777218, To = 16777220, time = 1.122395
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777217, Appid: 8082, Client Receive READ_READY, time: 1.122788
+client send count: 3
+NbStack Send Request Info: From = 16777217, To = 16777219, time = 1.122788
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777219, Appid: 8086, Server Receive READ_READY, time: 1.122815
+NbStack Send Request Info: From = 16777219, To = 16777218, time = 1.122815
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777220, dst: 16777217, time: 1.129304
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 3
+[iSLIP] in 3 accept: out 0
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000013 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000038 seconds
+Channel busy, backing off for 0.000008 seconds
+Channel busy, backing off for 0.000113 seconds
+Switch Received! src: 16777218, dst: 16777220, time: 1.129475
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 3
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000053 seconds
+Channel busy, backing off for 0.000873 seconds
+Switch Received! src: 16777217, dst: 16777219, time: 1.129868
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 0
+[iSLIP] in 0 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000007 seconds
+Channel busy, backing off for 0.000030 seconds
+Switch Received! src: 16777219, dst: 16777218, time: 1.129895
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 2
+[iSLIP] in 2 accept: out 1
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.131651
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.132071
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.132086
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.132584
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777220, Appid: 8087, Server Receive READ_READY, time: 1.136555
+NbStack Send Request Info: From = 16777220, To = 16777218, time = 1.136555
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777218, Appid: 8086, Client Receive READ_READY, time: 1.136975
+client send count: 4
+NbStack Send Request Info: From = 16777218, To = 16777219, time = 1.136975
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777219, Appid: 8082, Server Receive READ_READY, time: 1.136990
+NbStack Send Request Info: From = 16777219, To = 16777217, time = 1.136990
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777217, Appid: 8083, Client Receive READ_READY, time: 1.137488
+client send count: 3
+NbStack Send Request Info: From = 16777217, To = 16777220, time = 1.137488
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777220, dst: 16777218, time: 1.143635
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 3
+[iSLIP] in 3 accept: out 1
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000022 seconds
+Channel busy, backing off for 0.000041 seconds
+Channel busy, backing off for 0.000044 seconds
+Channel busy, backing off for 0.000162 seconds
+Channel busy, backing off for 0.000374 seconds
+Switch Received! src: 16777218, dst: 16777219, time: 1.144055
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 1
+[iSLIP] in 1 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000006 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000003 seconds
+Switch Received! src: 16777219, dst: 16777217, time: 1.144070
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 2
+[iSLIP] in 2 accept: out 0
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000004 seconds
+Channel busy, backing off for 0.000012 seconds
+Channel busy, backing off for 0.000022 seconds
+Channel busy, backing off for 0.000049 seconds
+Channel busy, backing off for 0.000126 seconds
+Channel busy, backing off for 0.000172 seconds
+Channel busy, backing off for 0.000225 seconds
+Switch Received! src: 16777217, dst: 16777220, time: 1.144568
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 3
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.146247
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.146467
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.146744
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.146859
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777219, Appid: 8086, Server Receive READ_READY, time: 1.151151
+NbStack Send Request Info: From = 16777219, To = 16777218, time = 1.151151
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777218, Appid: 8087, Client Receive READ_READY, time: 1.151371
+client send count: 4
+NbStack Send Request Info: From = 16777218, To = 16777220, time = 1.151371
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777220, Appid: 8083, Server Receive READ_READY, time: 1.151648
+NbStack Send Request Info: From = 16777220, To = 16777217, time = 1.151648
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777217, Appid: 8082, Client Receive READ_READY, time: 1.151763
+client send count: 4
+NbStack Send Request Info: From = 16777217, To = 16777219, time = 1.151763
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777219, dst: 16777218, time: 1.158231
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 2
+[iSLIP] in 2 accept: out 1
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000004 seconds
+Channel busy, backing off for 0.000022 seconds
+Channel busy, backing off for 0.000044 seconds
+Channel busy, backing off for 0.000063 seconds
+Channel busy, backing off for 0.000211 seconds
+Switch Received! src: 16777218, dst: 16777220, time: 1.158451
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 3
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000022 seconds
+Channel busy, backing off for 0.000017 seconds
+Channel busy, backing off for 0.000030 seconds
+Channel busy, backing off for 0.000060 seconds
+Channel busy, backing off for 0.000221 seconds
+Switch Received! src: 16777220, dst: 16777217, time: 1.158728
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 3
+[iSLIP] in 3 accept: out 0
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000001 seconds
+Channel busy, backing off for 0.000006 seconds
+Channel busy, backing off for 0.000008 seconds
+Channel busy, backing off for 0.000029 seconds
+Channel busy, backing off for 0.000046 seconds
+Channel busy, backing off for 0.000069 seconds
+Switch Received! src: 16777217, dst: 16777219, time: 1.158843
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 0
+[iSLIP] in 0 accept: out 2
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.160754
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.160985
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.161019
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.161064
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777218, Appid: 8086, Client Receive READ_READY, time: 1.165658
+client send count: 5
+NbStack Send Request Info: From = 16777218, To = 16777219, time = 1.165658
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777220, Appid: 8087, Server Receive READ_READY, time: 1.165889
+NbStack Send Request Info: From = 16777220, To = 16777218, time = 1.165889
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777219, Appid: 8082, Server Receive READ_READY, time: 1.165923
+NbStack Send Request Info: From = 16777219, To = 16777217, time = 1.165923
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777217, Appid: 8083, Client Receive READ_READY, time: 1.165968
+client send count: 4
+NbStack Send Request Info: From = 16777217, To = 16777220, time = 1.165968
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777218, dst: 16777219, time: 1.170818
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 1
+[iSLIP] in 1 accept: out 2
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000005 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000004 seconds
+Channel busy, backing off for 0.000027 seconds
+Channel busy, backing off for 0.000012 seconds
+Channel busy, backing off for 0.000113 seconds
+Channel busy, backing off for 0.000251 seconds
+Channel busy, backing off for 0.000444 seconds
+Channel busy, backing off for 0.000871 seconds
+Channel busy, backing off for 0.000224 seconds
+Channel busy, backing off for 0.000568 seconds
+Switch Received! src: 16777220, dst: 16777218, time: 1.172969
+[SW] unicast dst 16777218 via outPort 1
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 1 grant: in 3
+[iSLIP] in 3 accept: out 1
+[iSLIP] ---- Grant phase ----
+Switch Received! src: 16777219, dst: 16777217, time: 1.173003
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 2
+[iSLIP] in 2 accept: out 0
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000012 seconds
+Channel busy, backing off for 0.000018 seconds
+Channel busy, backing off for 0.000007 seconds
+Channel busy, backing off for 0.000044 seconds
+Switch Received! src: 16777217, dst: 16777220, time: 1.173048
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 3
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.173599
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.175145
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.175224
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.175265
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777219, Appid: 8086, Server Receive READ_READY, time: 1.178503
+Hostid: 16777218, Appid: 8087, Client Receive READ_READY, time: 1.180049
+client send count: 5
+NbStack Send Request Info: From = 16777218, To = 16777220, time = 1.180049
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777220, Appid: 8083, Server Receive READ_READY, time: 1.180128
+NbStack Send Request Info: From = 16777220, To = 16777217, time = 1.180128
+Channel busy, backing off for 0.000000 seconds
+Hostid: 16777217, Appid: 8082, Client Receive READ_READY, time: 1.180169
+client send count: 5
+NbStack Send Request Info: From = 16777217, To = 16777219, time = 1.180169
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777218, dst: 16777220, time: 1.185209
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 1
+[iSLIP] in 1 accept: out 3
+Channel busy, backing off for 0.000001 seconds
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000002 seconds
+Channel busy, backing off for 0.000003 seconds
+Channel busy, backing off for 0.000013 seconds
+Channel busy, backing off for 0.000009 seconds
+Channel busy, backing off for 0.000037 seconds
+Channel busy, backing off for 0.000013 seconds
+Channel busy, backing off for 0.000063 seconds
+Switch Received! src: 16777217, dst: 16777219, time: 1.185329
+[SW] unicast dst 16777219 via outPort 2
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 2 grant: in 0
+[iSLIP] in 0 accept: out 2
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000236 seconds
+Recal Switch, PortBecameIdle! time: 1.185585
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Channel busy, backing off for 0.000885 seconds
+Channel busy, backing off for 0.000052 seconds
+Channel busy, backing off for 0.000394 seconds
+Channel busy, backing off for 0.000703 seconds
+Switch Received! src: 16777220, dst: 16777217, time: 1.187208
+[SW] unicast dst 16777217 via outPort 0
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 0 grant: in 3
+[iSLIP] in 3 accept: out 0
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.187876
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.189384
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777219, Appid: 8082, Server Receive READ_READY, time: 1.190489
+Hostid: 16777220, Appid: 8087, Server Receive READ_READY, time: 1.192780
+Hostid: 16777217, Appid: 8083, Client Receive READ_READY, time: 1.194288
+client send count: 5
+NbStack Send Request Info: From = 16777217, To = 16777220, time = 1.194288
+Channel busy, backing off for 0.000000 seconds
+Switch Received! src: 16777217, dst: 16777220, time: 1.199448
+[SW] unicast dst 16777220 via outPort 3
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+[iSLIP] out 3 grant: in 0
+[iSLIP] in 0 accept: out 3
+[iSLIP] ---- Grant phase ----
+Recal Switch, PortBecameIdle! time: 1.199704
+[iSLIP] PortBecameIdle
+[iSLIP] Arbitrate: N=4
+[iSLIP] ---- Grant phase ----
+Hostid: 16777220, Appid: 8083, Server Receive READ_READY, time: 1.204608
+NbClient StopApplication Done!
+NbClient StopApplication Done!
+NbClient StopApplication Done!
+NbClient StopApplication Done!

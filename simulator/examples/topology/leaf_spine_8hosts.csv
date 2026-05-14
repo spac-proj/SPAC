@@ -1,0 +1,21 @@
+# Leaf-spine topology - 8 hosts via 2 leaf switches and 1 spine switch
+# Format: node_a,port_a,node_b,port_b
+# s0,s1 = leaf switches (4 ports each), s2 = spine switch (4 ports), 0-7 = hosts
+
+# Leaf switch s0 connects hosts 0-3
+0,0,s0,0
+1,0,s0,1
+2,0,s0,2
+3,0,s0,3
+
+# Leaf switch s1 connects hosts 4-7
+4,0,s1,0
+5,0,s1,1
+6,0,s1,2
+7,0,s1,3
+
+# Spine switch s2 connects to both leaf switches
+s0,4,s2,0
+s0,5,s2,1
+s1,4,s2,2
+s1,5,s2,3

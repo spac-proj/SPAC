@@ -1,0 +1,27 @@
+# iSLIP scheduler configuration - 8-port switch, per-port buffer depth
+# Used for testing asymmetric buffer setups
+
+num_ports: 8
+addr_length: 4
+hash_module_type: FullLookupTable
+buffer_type: NBuffersPerPort
+scheduler_type: iSLIP
+clock_frequency_mhz: 200.0
+axis_data_width: 512
+
+# Do not use a global buffer size; rely on the per-port settings below
+global_voq_size: 0
+
+# Per-port VOQ size (simulates different traffic loads across ports)
+# Ports 0-3: small buffer  (light-traffic ports)
+# Ports 4-5: medium buffer
+# Ports 6-7: large buffer  (heavy-traffic ports)
+voq_sizes:
+  0: 64    # small-buffer port
+  1: 64
+  2: 64
+  3: 64
+  4: 128   # medium-buffer port
+  5: 128
+  6: 256   # large-buffer port
+  7: 256
